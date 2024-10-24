@@ -1,0 +1,89 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.Account": {
+      "version": "8.3.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "8.3.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "8.3.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "8.3.2",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "AbpVirtualFileTest.Application": {
+      "path": "src/AbpVirtualFileTest.Application/AbpVirtualFileTest.Application.abppkg",
+      "folder": "src"
+    },
+    "AbpVirtualFileTest.Application.Tests": {
+      "path": "test/AbpVirtualFileTest.Application.Tests/AbpVirtualFileTest.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "AbpVirtualFileTest.Domain.Shared": {
+      "path": "src/AbpVirtualFileTest.Domain.Shared/AbpVirtualFileTest.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "AbpVirtualFileTest.Application.Contracts": {
+      "path": "src/AbpVirtualFileTest.Application.Contracts/AbpVirtualFileTest.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "AbpVirtualFileTest.HttpApi": {
+      "path": "src/AbpVirtualFileTest.HttpApi/AbpVirtualFileTest.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "AbpVirtualFileTest.HttpApi.Client": {
+      "path": "src/AbpVirtualFileTest.HttpApi.Client/AbpVirtualFileTest.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "AbpVirtualFileTest.Web": {
+      "path": "src/AbpVirtualFileTest.Web/AbpVirtualFileTest.Web.abppkg",
+      "folder": "src"
+    },
+    "AbpVirtualFileTest.Web.Tests": {
+      "path": "test/AbpVirtualFileTest.Web.Tests/AbpVirtualFileTest.Web.Tests.abppkg",
+      "folder": "test"
+    },
+    "AbpVirtualFileTest.EntityFrameworkCore.Tests": {
+      "path": "test/AbpVirtualFileTest.EntityFrameworkCore.Tests/AbpVirtualFileTest.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "AbpVirtualFileTest.EntityFrameworkCore": {
+      "path": "src/AbpVirtualFileTest.EntityFrameworkCore/AbpVirtualFileTest.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "AbpVirtualFileTest.TestBase": {
+      "path": "test/AbpVirtualFileTest.TestBase/AbpVirtualFileTest.TestBase.abppkg",
+      "folder": "test"
+    },
+    "AbpVirtualFileTest.Domain.Tests": {
+      "path": "test/AbpVirtualFileTest.Domain.Tests/AbpVirtualFileTest.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "AbpVirtualFileTest.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/AbpVirtualFileTest.HttpApi.Client.ConsoleTestApp/AbpVirtualFileTest.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "AbpVirtualFileTest.DbMigrator": {
+      "path": "src/AbpVirtualFileTest.DbMigrator/AbpVirtualFileTest.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "AbpVirtualFileTest.Domain": {
+      "path": "src/AbpVirtualFileTest.Domain/AbpVirtualFileTest.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
